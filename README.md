@@ -4,12 +4,12 @@
 <br>
 <p><li>The driver has been tested with ROS Kinetic on Ubuntu 16.04 64-bit.</li>
 <br>
-<p>Packages required</p>
+<h2>Packages required</h2>
 <br>
 <p a href="https://github.com/br5555/stanley"><li>Stanley algoirthm</li>
 <p a href="https://github.com/allenh1/p2os"><li>Gazebo model of Pioneer P3-DX</li>
 <br>
-<p>Before running launch file</p>
+<h2>Before running launch file</h2>
 <br>
 <p><li>execute robotName.sh</li>
 <p><li>rosdep install --from-paths WORKSPACE --ignore-src --rosdistro=ROSDISTRO</li>
