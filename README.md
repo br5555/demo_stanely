@@ -11,7 +11,11 @@
 <br>
 <p>Before running launch file</p>
 <br>
-<p><li>robotName.sh</li>
+<p><li>execute robotName.sh</li>
+<p><li>rosdep install --from-paths WORKSPACE --ignore-src --rosdistro=ROSDISTRO</li>
+<p><li>sudo apt install libhdf5-dev</li>
+<p><li>sudo apt install libmatio-dev
+</li>
 <br>
 <br>
 <p>The team of Stanford  implemented the velocity and steering controllers
@@ -22,7 +26,7 @@ method.” The performance of this controller degrades seriously at higher speed
 <br>
 <h3>stanleySTDR.launch contains:</h3>
 
-  <ol>
+  <ul>
   <li>pureStanley.launch(running stanley algoritham)</li>
   <li >move_base_stdr_sim.launch: </li>
     <ul>
@@ -30,17 +34,17 @@ method.” The performance of this controller degrades seriously at higher speed
          <li>sets move_base parameters </li>
           <li>rviz </li>
     </ul>
-  </ol>
+  </ul>
 <br>
 <h3>p3dx-gazebo-empty-stanley.launch contains:</h3>
 
-  <ol>
+  <ul>
   <li>lattice planner</li>
   <li>pureStanley.launch</li>
   <li>gazebo simulator</li>
   <li>urdf p3-dx model</li>
   <li>rviz</li>
-  </ol>
+  </ul>
 
  
 
