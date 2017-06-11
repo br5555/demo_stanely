@@ -13,7 +13,6 @@
 <br>
 <p><li>robotName.sh</li>
 <br>
-<br>
 <p>The team of Stanford  implemented the velocity and steering controllers
 separately for its vehicle “Stanley” at the DARPA Grand Challenge. The velocity
 control is implemented as a PI controller, while the steering angle is computed by a
