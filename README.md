@@ -4,9 +4,11 @@
 <br>
 <p><li>The driver has been tested with ROS Kinetic on Ubuntu 16.04 64-bit.</li>
 <br>
-<p>Packages required</p>
+<h3>Packages required</h3>
+<ul style="list-style-type:circle">
 <li> <a href="https://github.com/br5555/stanley">Stanley algoirthm </a> </li>
 <li> <a href="https://github.com/allenh1/p2os">Gazebo model of Pioneer P3-DX </a> </li>
+</ul>
 <br>
 <p>Before running launch file</p>
 <p><li>robotName.sh</li>
