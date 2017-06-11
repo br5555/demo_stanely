@@ -2,8 +2,8 @@
 
   <arg name="name" default="$(env ROBOT_NAME)"/>
   
-  <!-- Pure pursuit path tracking -->
-  <node pkg="demo_stanley" type="pureStanley" name="controller">
+  <!-- Stanley path tracking -->
+  <node pkg="stanley" type="pureStanley" name="controller">
     <param name="base_frame_id" value="$(arg name)/base_link"/>
     <param name="global_frame_id" value="$(arg name)/map"/>
     <param name="lookahead_frame_id" value="$(arg name)/lookahead"/>
