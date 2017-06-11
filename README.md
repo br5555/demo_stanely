@@ -10,8 +10,10 @@
 <li> <a href="https://github.com/allenh1/p2os">Gazebo model of Pioneer P3-DX </a> </li>
 </ul>
 <br>
-<p>Before running launch file</p>
+<h3>Before running launch file</h3>
+<ul style="list-style-type:circle">
 <p><li>robotName.sh</li>
+</ul>
 <br>
 <p>The team of Stanford  implemented the velocity and steering controllers
 separately for its vehicle “Stanley” at the DARPA Grand Challenge. The velocity
