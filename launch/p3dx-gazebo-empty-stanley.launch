@@ -2,7 +2,7 @@
   <arg name="name" default="$(env ROBOT_NAME)"/>
   
   <!-- Launch the robot in the simulated environment -->
-  <include file="$(find agv_navigation_demos)/launch/p3dx-gazebo-empty.launch">
+  <include file="$(find demo_stanley)/launch/p3dx-gazebo-empty.launch">
     <arg name="name" value="$(arg name)"/>
   </include>
 
@@ -34,6 +34,6 @@
   
   <!-- rviz for visualization -->
   <node pkg="rviz" type="rviz" name="rviz"
-        args="-d $(find agv_navigation_demos)/rviz/pioneer-control.rviz"/>
+        args="-d $(find demo_stanley)/rviz/pioneer-control.rviz"/>
   
 </launch>

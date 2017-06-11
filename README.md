@@ -4,16 +4,15 @@
 <br>
 <p><li>The driver has been tested with ROS Kinetic on Ubuntu 16.04 64-bit.</li>
 <br>
-<h3>Packages required</h3>
-<ul style="list-style-type:circle">
-<li> <a href="https://github.com/br5555/stanley">Stanley algoirthm </a> </li>
-<li> <a href="https://github.com/allenh1/p2os">Gazebo model of Pioneer P3-DX </a> </li>
-</ul>
+<p>Packages required</p>
 <br>
-<h3>Before running launch file</h3>
-<ul style="list-style-type:circle">
+<p a href="https://github.com/br5555/stanley"><li>Stanley algoirthm</li>
+<p a href="https://github.com/allenh1/p2os"><li>Gazebo model of Pioneer P3-DX</li>
+<br>
+<p>Before running launch file</p>
+<br>
 <p><li>robotName.sh</li>
-</ul>
+<br>
 <br>
 <p>The team of Stanford  implemented the velocity and steering controllers
 separately for its vehicle “Stanley” at the DARPA Grand Challenge. The velocity
