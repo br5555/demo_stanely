@@ -6,11 +6,10 @@
 <br>
 <p>Packages required</p>
 <br>
-<p a href="https://github.com/br5555/stanley"><li>Stanley algoirthm</li>
-<p a href="https://github.com/allenh1/p2os"><li>Gazebo model of Pioneer P3-DX</li>
+<p ><li a href="https://github.com/br5555/stanley">Stanley algoirthm</li>
+<p ><li a href="https://github.com/allenh1/p2os">Gazebo model of Pioneer P3-DX</li>
 <br>
 <p>Before running launch file</p>
-<br>
 <p><li>robotName.sh</li>
 <br>
 <p>The team of Stanford  implemented the velocity and steering controllers
