@@ -1,0 +1,8 @@
+<launch>
+<node pkg="demo_stanley" type="pureStanley" name="stanley" output="screen">
+<remap from="cmd_vel" to="robot1/cmd_vel"/>
+    <remap from="cmd_vel" to="robot0/cmd_vel"/>
+    <remap from="odom" to="robot0/odom"/>
+  </node>
+
+</launch>
