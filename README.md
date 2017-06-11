@@ -5,7 +5,7 @@
 <p><li>The driver has been tested with ROS Kinetic on Ubuntu 16.04 64-bit.</li>
 <br>
 <p>Packages required</p>
-<p  a href="https://github.com/br5555/stanley"><li>Stanley algoirthm </li></p>
+<li a href="https://github.com/br5555/stanley">Stanley algoirthm </li>
 <p ><li a href="https://github.com/allenh1/p2os">Gazebo model of Pioneer P3-DX</li>
 <br>
 <p>Before running launch file</p>
