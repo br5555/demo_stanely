@@ -6,7 +6,7 @@
 <br>
 <h2>Packages required</h2>
 <br>
-<p a href="https://github.com/br5555/stanley"><li>Stanley algoirthm</li></p>
+<p a href="https://github.com/br5555/stanley"><li a href="https://github.com/allenh1/p2os">Stanley algoirthm</li></p>
 <p a href="https://github.com/allenh1/p2os"><li>Gazebo model of Pioneer P3-DX</li></p>
 <br>
 <h2>Before running launch file</h2>
