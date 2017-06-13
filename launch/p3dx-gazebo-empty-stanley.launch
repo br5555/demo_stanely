@@ -28,7 +28,7 @@
   </node>
 
   <!-- Stanley path tracking -->
-  <include file="$(find demo_staney)/launch/pioneerStanley.launch">
+  <include file="$(find demo_stanley)/launch/pioneerStanley.launch">
     <arg name="name" value="$(arg name)"/>
   </include>
   
