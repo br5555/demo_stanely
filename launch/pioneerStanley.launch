@@ -4,8 +4,9 @@
   
   <!-- Stanley path tracking -->
   <node pkg="stanley" type="pureStanley" name="controller" output="screen">
-    <param name="robot0" value="$(arg name)/odom"/>
-    <param name="world" value="$(arg name)/map"/>
+    <param name="base_frame_id" value="$(arg name)/base_link"/>
+    <param name="global_frame_id" value="$(arg name)/map"/>
+    <rosparam file="$(find demo_stanley)/config/$(arg name).yaml" command="load"/>
     <remap from="/move_base/NavfnROS/plan" to="/plan"/>
     <remap from="/odom" to="$(arg name)/odom"/>
     <remap from="/cmd_vel" to="$(arg name)/cmd_vel"/>
