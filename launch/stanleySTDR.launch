@@ -4,7 +4,7 @@
 
 
     <include file="$(find demo_stanley)/launch/move_base_stdr_sim.launch"/>
-    <include file="$(find stanley)/launch/pureStanley.launch"/>
+    <include file="$(find demo_stanley)/launch/pureStanley.launch"/>
  <node pkg="rosbag" type="record" name="record" output="screen" args="-a -o $(find demo_stanley)/bags/ "/> 
 
     
