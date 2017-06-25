@@ -1,0 +1,12 @@
+<launch>
+
+
+
+
+    <include file="$(find demo_stanley)/launch/move_base_stdr_sim.launch"/>
+    <include file="$(find demo_stanley)/launch/pureStanley.launch"/>
+
+
+    
+    
+</launch>
