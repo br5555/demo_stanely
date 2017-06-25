@@ -1,14 +1,10 @@
 <launch>
+<arg name="name" default="$(env ROBOT_NAME)"/>
+
 <node pkg="stanley" type="pureStanley" name="stanley" output="screen">
-<<<<<<< HEAD
-<remap from="cmd_vel" to="robot1/cmd_vel"/>
-=======
-    <param name="robot_frame_id" value="robot0"/>
-    <param name="map_frame_id"  value="world"/>
     <rosparam file="$(find demo_stanley)/config/pioneer.yaml" command="load"/>
->>>>>>> 01693954641f4629a3a5e062b72cd36b35618379
-    <remap from="cmd_vel" to="robot0/cmd_vel"/>
-    <remap from="odom" to="robot0/odom"/>
+    <remap from="cmd_vel" to="$(arg name)/cmd_vel"/>
+    <remap from="odom" to="$(arg name)/odom"/>
   </node>
 
 </launch>
