@@ -5,11 +5,11 @@
 
     <include file="$(find demo_stanley)/launch/move_base_stdr_sim.launch"/>
     <include file="$(find demo_stanley)/launch/pureStanley.launch"/>
-<<<<<<< HEAD
+
     <node pkg="rosbag" type="record" name="record" output="screen" args="-a -o $(find demo_stanley)/bags/ "/> 
-=======
- <node pkg="rosbag" type="record" name="record" output="screen" args="-a -o $(find demo_stanley)/bags/ "/> 
->>>>>>> 01693954641f4629a3a5e062b72cd36b35618379
+
+
+
 
     
     
