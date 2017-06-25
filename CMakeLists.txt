@@ -20,8 +20,6 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   tf
   tf2
-  tf2_bullet
-  tf2_eigen
   tf2_geometry_msgs
   tf2_kdl
   tf2_msgs
