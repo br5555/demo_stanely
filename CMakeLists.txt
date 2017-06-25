@@ -3,19 +3,11 @@ project(demo_stanley)
 
 find_package(catkin REQUIRED COMPONENTS
   cmake_modules
-  gazebo_msgs
-  gazebo_plugins
-  gazebo_ros
-  gazebo_ros_control
   geometry_msgs
   nav_core
-  nav_core
   nav_msgs
-  nav_msgs
-  pcl_conversions
   roscpp
   roslib
-  rospy
   rviz
   std_msgs
   tf
@@ -25,10 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf2_msgs
   tf2_py
   tf2_ros
-  tf2_sensor_msgs
   tf2_tools
-  urdf
-  xacro
 )
 
 
