@@ -1,0 +1,7 @@
+# Parameters for the Pioneer P3-DX robot
+
+
+map_frame_id: world
+robot_frame_id: robot0
+
+

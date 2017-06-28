@@ -1,7 +1,7 @@
 # Parameters for the Pioneer P3-DX robot
 
 
-map_frame_id: alpha/map
-robot_frame_id: alpha/base_link
+map_frame_id: pioneer/map
+robot_frame_id: pioneer/base_link
 
 

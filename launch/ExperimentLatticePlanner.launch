@@ -1,0 +1,12 @@
+<launch>
+
+
+
+    <include file="$(find p3dx_config)/launch/aria-lms100-amcl.launch"/>
+    <include file="$(find demo_stanley)/launch/latice_alpha_experiment.launch"/>
+    <include file="$(find demo_stanley)/launch/pureStanley.launch"/>
+    
+
+    
+    
+</launch>

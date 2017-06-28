@@ -1,0 +1,12 @@
+<launch>
+<arg name="name" default="$(env ROBOT_NAME)"/>
+
+<node pkg="stanley" type="pureStanley" name="stanley" output="screen">
+
+    <rosparam file="$(find demo_stanley)/config/robot0.yaml" command="load"/>
+    <remap from="cmd_vel" to="robot0/cmd_vel"/>
+    <remap from="odom" to="robot0/odom"/>
+
+  </node>
+
+</launch>
