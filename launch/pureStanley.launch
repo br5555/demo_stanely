@@ -5,7 +5,7 @@
 
     <!-- rosparam file="$(find demo_stanley)/config/pioneer.yaml" command="load"/ -->
     <remap from="cmd_vel" to="$(arg name)/cmd_vel"/>
-    <remap from="odom" to="$(arg name)/odom"/>
+    <remap from="odom" to="$(arg name)/pose"/>
     <param name="map_frame_id" value="$(arg name)/map"/>
     <param name="robot_frame_id" value="$(arg name)/base_link"/>
   </node>

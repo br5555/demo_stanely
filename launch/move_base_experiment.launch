@@ -1,6 +1,6 @@
 <launch>
 
- <arg name="name" default=$(env ROBOT_NAME)/>
+ <arg name="name" default="$(env ROBOT_NAME)"/>
 
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
     <rosparam file="$(find demo_stanley)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
@@ -9,7 +9,8 @@
     <rosparam file="$(find demo_stanley)/param/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find demo_stanley)/param/base_local_planner_params.yaml" command="load" />
     <remap from="cmd_vel" to="dummy/cmd_vel"/>
-    <remap from="odom" to="$(arg name)/odom"/>
+    <remap from="odom" to="$(arg name)/pose"/>
+    <remap from="map" to="$(arg name)/map"/>
   </node>
 
 </launch>

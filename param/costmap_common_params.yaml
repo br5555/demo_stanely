@@ -6,4 +6,4 @@ inflation_radius: 0.5
 
 observation_sources: laser_scan_sensor
 
-laser_scan_sensor: {sensor_frame: robot0_laser_0, data_type: LaserScan, topic: /robot0/laser_0, marking: true, clearing: true}
+laser_scan_sensor: {sensor_frame: alpha/laser, data_type: LaserScan, topic: /alpha/scan, marking: true, clearing: true}
