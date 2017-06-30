@@ -9,6 +9,39 @@ if __name__ == '__main__':
    # y_a = [msg.pose.pose.position.y for (topic, msg, t) in bag.read_messages(topics=['/robot0/odom'])]
    # t_t = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/robot0/odom'])]
     
+<<<<<<< HEAD
+    omega_a = [msg.omega for (topic, msg, t) in bag.read_messages(topics=['/plotMsgs'])]
+    omega_t = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/plotMsgs'])]
+    nulti = omega_t[0]
+    for i in range(0,len(omega_t)):
+        omega_t[i] = omega_t[i] -nulti
+        
+    
+    error_a = [msg.error for (topic, msg, t) in bag.read_messages(topics=['/plotMsgs'])]
+    error_t = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/plotMsgs'])]
+    nulti2 = error_t[0]
+    for i in range(0,len(error_t)):
+        error_t[i] = error_t[i] -nulti2
+    
+    modul_a = [msg.modulDistance for (topic, msg, t) in bag.read_messages(topics=['/plotMsgs'])]
+    modul_t = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/plotMsgs'])]
+    nulti2 = modul_t[0]
+    for i in range(0,len(modul_t)):
+        modul_t[i] = modul_t[i] -nulti2
+
+
+    #kut_a = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/kutjedan'])]
+    #kut_t = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/kutjedan'])]
+    #nulti2 = kut_t[0]
+    #for i in range(0,len(kut_t)):
+    #    kut_t[i] = kut_t[i] -nulti2
+
+    #kut_a1 = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/kutpet'])]
+    #kut_t1 = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/kutpet'])]
+    #nulti2 = kut_t1[0]
+    #for i in range(0,len(kut_t1)):
+     #   kut_t1[i] = kut_t1[i] -nulti2
+=======
    # omega_a = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/omega'])]
    # omega_t = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/omega'])]
    # nulti = omega_t[0]
@@ -40,6 +73,7 @@ if __name__ == '__main__':
     nulti2 = kut_t1[0]
     for i in range(0,len(kut_t1)):
         kut_t1[i] = kut_t1[i] -nulti2
+>>>>>>> 58e93766bbd9c857288b54ced19b7687086abcb1
        
 
   #  kut_a2 = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/kutosam'])]
@@ -48,6 +82,26 @@ if __name__ == '__main__':
   #  for i in range(0,len(kut_t2)):
   #      kut_t2[i] = kut_t2[i] -nulti2
 
+<<<<<<< HEAD
+    #kut_a3 = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/kutdamjan'])]
+    #kut_t3 = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/kutdamjan'])]
+    #nulti2 = kut_t3[0]
+    #for i in range(0,len(kut_t3)):
+     #   kut_t3[i] = kut_t3[i] -nulti2
+      #  kut_a3[i] = -1*kut_a3[i]
+
+    #kut_a4 = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/kutja'])]
+    #kut_t4 = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/kutja'])]
+    #nulti2 = kut_t4[0]
+    #for i in range(0,len(kut_t4)):
+     #   kut_t4[i] = kut_t4[i] -nulti2
+
+    pathX = [msg.pathX for (topic, msg, t) in bag.read_messages(topics=['/plotMsgs'])]
+    pathY = [msg.pathY for (topic, msg, t) in bag.read_messages(topics=['/plotMsgs'])]
+    
+    robotX = [msg.robotX for (topic, msg, t) in bag.read_messages(topics=['/plotMsgs'])]
+    robotY = [msg.robotY for (topic, msg, t) in bag.read_messages(topics=['/plotMsgs'])]
+=======
     kut_a3 = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/kutdamjan'])]
     kut_t3 = [t.to_sec() for (topic, msg,t) in bag.read_messages(topics = ['/kutdamjan'])]
     nulti2 = kut_t3[0]
@@ -66,6 +120,7 @@ if __name__ == '__main__':
     
  #   robotX = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/robotX'])]
   #  robotY = [msg.data for (topic, msg, t) in bag.read_messages(topics=['/robotY'])]
+>>>>>>> 58e93766bbd9c857288b54ced19b7687086abcb1
     
   
    
